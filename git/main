@@ -12,3 +12,13 @@
 
 [apply]
   ignorewhitespace=change
+
+[diff]
+  color = auto
+
+[pager]
+  color = true
+  status = true
+
+[status]
+  color = auto
