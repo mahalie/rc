@@ -1,2 +1,0 @@
-
-[ "`uname -a | grep '^Darwin'`" ] && . ~/rc/bash/os/osx

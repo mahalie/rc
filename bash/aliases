@@ -1,3 +1,5 @@
+alias l="ls -al"
+alias ap_restart="sudo apachectl -k restart"
 
-alias vscreen="screen -a -U -h 5000 -e '^Va'"
-alias ascreen="screen -a -U -h 5000"
+# alias vscreen="screen -a -U -h 5000 -e '^Va'"
+# alias ascreen="screen -a -U -h 5000"
