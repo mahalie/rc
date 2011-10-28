@@ -1,27 +1,14 @@
 [user]
-    name = Bo Borgerson
-    email = gigabo@gmail.com
+  name = Mahalie
+  email = mail@mahalie.com
 
 [alias]
-    ci = commit -a
-    co = checkout
-    up = pull --rebase
-    praise = blame
+  ci = commit -a -m
+  co = checkout
+  up = pull --rebase
 
 [branch]
-    autosetuprebase = always
+  autosetuprebase = always
 
-[diff]
-    color = auto
-
-[pager]
-    color = true
-    status = true
-
-[status]
-    color = auto
-
-[sendemail]
-    smtpserver = smtp.gmail.com
-    smtpuser = gigabo@gmail.com
-    smtpssl = true
+[apply]
+  ignorewhitespace=change
