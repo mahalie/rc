@@ -1,2 +1,23 @@
-" This will be full o' stuff like @gigabo's when I lern up on vim more better
+" see http://tammersaleh.com/posts/the-modern-vim-config-with-pathogen
+filetype off
+call pathogen#helptags()
+call pathogen#runtime_append_all_bundles()
 
+" see https://github.com/altercation/solarized/tree/master/vim-colors-solarized#LNaN
+syntax enable
+set background=dark
+set autoindent
+set expandtab
+set tabstop=8
+set softtabstop=2
+set shiftwidth=2
+set number		"adds line numbers on the left
+set numberwidth=6	"useful for copying and pasting with screen
+"set columns=86		"cause that's what Bo says
+"set textwidth=78	"cause that's what Bo says
+
+"syntax=on
+
+colorscheme solarized
+set iskeyword+=-        "for CSS, adds dash suport for autocomplete
+set hidden              "allow switching away from unsaved buffers
